@@ -1,10 +1,16 @@
 /*=============== GOOGLE FONTS ===============*/
-@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1p:wght@300;400;500&display=swap');/*=============== BASE ===============*/
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&display=swap');
+/*=============== BASE ===============*/
 
 * {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'M PLUS 1p', sans-serif;}
+  font-family: 'Playfair Display', serif;
+}
+
+a{
+  text-decoration: none;
+}
 
 #fixed-button{
   position: fixed;
@@ -688,6 +694,14 @@ border-radius: 20px;
   overflow: hidden;
   height: 100%;
   border-radius: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.services-text{
+  text-align: left;
+  padding: 2rem;
 }
 
 @media only screen and (max-width: 600px) {
