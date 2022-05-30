@@ -383,6 +383,7 @@ right:0px;
 top:0px;
 left:70px;
 bottom:0px;
+height: 580px;
 border-radius:10px;
 background-color: #059c62;
 -webkit-transition:all 600ms ease;
@@ -398,6 +399,7 @@ content:'';
 top:0px;
 left:70px;
 bottom:0px;
+height: 580px;
 width:0%;
 border-radius:10px;
 -webkit-transition:all 600ms ease;
@@ -476,6 +478,7 @@ font-size:18px;
 background-color: rgba(255, 255, 255, 0.86);
 border:none;
 border-radius: 20px;
+
 }
 
 /* Card slider*/
