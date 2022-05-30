@@ -46,12 +46,12 @@ jQuery(document).ready(function ($) {
           loop: false,
         },
         1320: {
-          items: 4,
+          items: 3,
           // nav: true,
           loop: false,
         },
         1750: {
-          items: 5,
+          items: 3,
           // nav: true,
           loop: false,
         },
