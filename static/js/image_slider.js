@@ -41,11 +41,16 @@ jQuery(document).ready(function ($) {
           loop: false,
         },
         992: {
-          items: 3,
+          items: 2,
           // nav: true,
           loop: false,
         },
-        1320: {
+        1199: {
+          items: 2,
+          // nav: true,
+          loop: false,
+        },
+        1200: {
           items: 3,
           // nav: true,
           loop: false,

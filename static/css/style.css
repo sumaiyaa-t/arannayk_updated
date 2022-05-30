@@ -10,9 +10,15 @@
 
 #fixed-button{
   position: fixed;
-  bottom: 10px;
+  bottom:150px;
   right: 10px;
   z-index: 4;
+}
+@media only screen and (max-device-width: 1024px){
+  #fixed-button{
+    bottom:40px;
+    right: 10px;
+  }
 }
 
 /*=============== NAVBAR ===============*/
@@ -28,7 +34,7 @@
 
 .logo-image {
   width: auto;
-  height: 55px;
+  height: 48px;
 }
 
 .top-nav {
@@ -73,6 +79,7 @@ li a {
 
 .form-search {
   width: 200px;
+  margin: 0.5rem;
 }
 
 form .search-button {
@@ -676,7 +683,7 @@ border-radius: 20px;
 }
 
 .overlay2 {
-  background: rgba(5, 156, 154, 0.7);
+  background: rgba(5, 156, 154, 0.85);
   overflow: hidden;
   height: 100%;
   border-radius: 50px;
@@ -799,12 +806,12 @@ border-radius: 20px;
 @media screen and (min-width: 1500px) {
 
   .publication-card-style{
-    height: 650px;
+    height: 750px;
   }
   
   .publication-image-style{
     width:auto;
-    height: 480px;
+    height: 520px;
   }
   
 }
@@ -832,19 +839,16 @@ border-radius: 20px;
 
 .follow-us p {
   color: white;
-  font-style: "M PLUS 1";
 }
 
 .follow-us a {
   color: white;
-  font-style: "M PLUS 1";
   text-decoration: none;
   font-weight: normal;
 }
 
 .anchor-links a {
   color: white;
-  font-style: "M PLUS 1";
   text-decoration: none;
   font-weight: normal;
 }

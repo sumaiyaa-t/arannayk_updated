@@ -8,6 +8,21 @@
   font-family: 'Playfair Display', serif;
 }
 
+
+#fixed-button{
+  position: fixed;
+  bottom:150px;
+  right: 10px;
+  z-index: 4;
+}
+
+@media only screen and (max-device-width: 1024px){
+  #fixed-button{
+    bottom:40px;
+    right: 10px;
+  }
+}
+
 /*=============== NAVBAR ===============*/
 .logo-button {
   background: rgba(255, 255, 255, 0.86);
@@ -21,8 +36,9 @@
 
 .logo-image {
   width: auto;
-  height: 55px;
+  height: 48px;
 }
+
 
 .top-nav {
     background-color: #23c989;
@@ -66,6 +82,7 @@ li a {
 
 .form-search {
   width: 200px;
+  margin: 0.5rem;
 }
 
 form .search-button {
@@ -112,7 +129,7 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .dropdown-menu {
-  background-color: rgb(5, 156, 98, 0.3);
+  background-color: rgb(5, 156, 98, 0.6);
   border: none;
 }
 
