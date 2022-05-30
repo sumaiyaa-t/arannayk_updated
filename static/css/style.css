@@ -734,7 +734,7 @@ border-radius: 20px;
   border-radius: 50px;
   color: #fff;
   position: absolute;
-  bottom:0;
+  bottom:14;
   transform: translate(-50%, -50%);
 }
 
