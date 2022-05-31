@@ -14,16 +14,11 @@ a{
 
 #fixed-button{
   position: fixed;
-  bottom:150px;
+  bottom:10px;
   right: 10px;
   z-index: 4;
 }
-@media only screen and (max-device-width: 1024px){
-  #fixed-button{
-    bottom:40px;
-    right: 10px;
-  }
-}
+
 
 /*=============== NAVBAR ===============*/
 .logo-button {
@@ -207,6 +202,7 @@ input[type="search"]::-webkit-search-cancel-button {
   font-size: 20px;
   color: #fff;
 }
+
 .explore-button{
   background-color: #008847;
   color: #fff;
@@ -234,7 +230,7 @@ ul {
   padding: 0;
   list-style: none;
 }
-img {
+.image img {
 max-width: 100%;
 height: auto;
 }
@@ -1025,6 +1021,13 @@ border-radius: 20px;
 
   .language-style {
     border: none;
+  }
+}
+
+@media only screen and (max-device-width: 991px) {
+  .icons-nav{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
   }
 }
 
