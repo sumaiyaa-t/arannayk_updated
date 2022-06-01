@@ -37,7 +37,8 @@ a{
 }
 
 .top-nav {
-    background-color: #23c989;
+  background: #005e5e;
+  color: #fff;
   }
   
 .nav-heading {
@@ -49,9 +50,17 @@ a{
   color: #fff !important;
 }
 
+.top-nav {
+  height: 40px !important;
+}
+
+.down-nav{
+  height: 50px !important;
+}
+
 nav .navbar-nav li a {
-  font-size: 18px;
-  font-weight: 700;
+  font-size: 16px;
+  font-weight: 500;
   color: #fff !important;
 }
 
@@ -121,9 +130,15 @@ input[type="search"]::-webkit-search-cancel-button {
 }
 
 .down-nav {
- background-color: #059c62;
+ background-color: #fff;
+ color: #005e5e !important;
 }
 
+.donate-button{
+  background-color: #ec9409;
+  color: #fff;
+  border:none;
+}
 .dropdown-menu {
   background-color: rgb(5, 156, 98, 0.6);
   border: none;
